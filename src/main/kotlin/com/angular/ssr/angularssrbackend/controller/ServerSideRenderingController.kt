@@ -16,6 +16,6 @@ class HelloWorldController {
     @GetMapping
     fun helloWorld(): String {
         log.info("Hello world Api called")
-        return "Hello World! from Spring Boot api endpoint!"
+        return "Hello World!! from Spring Boot api endpoint!!"
     }
 }
